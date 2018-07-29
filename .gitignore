@@ -1,0 +1,48 @@
+# compiled output
+/dist
+/dist-server
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# test
+/spec/*.js
+/spec/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Ignore code coverage generated reports
+coverage/
+
+# Ignore package-lock.json as Yarn is the preferred package manager for this project
+package-lock.json
